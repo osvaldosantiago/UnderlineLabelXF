@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:UnderlineLabelXF" 
+		x:Class="UnderlineLabelXF.UnderlineLabelXFPage">
+	<StackLayout VerticalOptions="CenterAndExpand">
+		<Label Text="Sample of Underline Label" VerticalOptions="Center" HorizontalOptions="Center" />
+		<local:UnderlineLabel  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Text=" This is a underline text!"></local:UnderlineLabel>
+	</StackLayout>
+</ContentPage>
